@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import UserChart from "./components/User/UserChart";
 import UserForm from "./components/Form/UserForm";
 import Grid from "@material-ui/core/Grid";
 import "./App.css";
-import BarChart from "./components/User/BarChart";
+import BarChart from "./components/Bar/BarChart";
 
 function App() {
   const [initData, setInitData] = useState([

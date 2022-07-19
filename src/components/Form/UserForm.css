@@ -1,0 +1,66 @@
+.userform {
+    background-color: #3e3e3f;
+        padding: 1rem;
+        margin: 2rem auto;
+        width: 22rem;
+        max-width: 95%;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 1px 8px rgba(192, 174, 174, 0.25);
+}
+
+.userform button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #3a42b3;
+    background-color: #5231ac;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.userform button:hover,
+.userform button:active {
+    background-color: #3a388d;
+    border-color: #6a3bc2;
+}
+
+.userform button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.userform button.alternative:hover,
+.userform button.alternative:active {
+    background-color: #ddb3f8;
+}
+
+.data__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.data__control label {
+    color: rgb(255, 250, 250);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.data__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.data__actions {
+    text-align: left;
+}
